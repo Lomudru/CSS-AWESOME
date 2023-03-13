@@ -1,35 +1,35 @@
 /* LE VALEUR A MODIFIDIER POUR MODIFIER LA TAILLE*/
 :root{
     /* La poubelle */
-    --size-trash-can: 35px;
+    --size-trash-can: 100px;
     --color-trash-can: black;
 
     /* La maison */
-    --size-house: 35px;
+    --size-house: 100px;
     --color-house: black;
 
     /* La Liste */
-    --size-list: 35px;
+    --size-list: 100px;
     --color-list: black;
 
     /* Le STYLO */
-    --size-pen: 35px;
+    --size-pen: 100px;
     --color-pen: black;
 
     /* Le plus */
-    --size-plus : 35px;
+    --size-plus : 100px;
     --color-plus : black;
 
     /* La cloche */
-    --size-bell : 35px;
+    --size-bell : 100px;
     --color-bell: black;
 
     /* La loupe */
-    --size-magnifying-glass: 35px;
+    --size-magnifying-glass: 100px;
     --color-magnifying-glass: black;
 
     /* Le user */
-    --size-user : 35px;
+    --size-user : 100px;
     --color-user : black;
 }
 /* LE CSS DE LA POUBELLE */
