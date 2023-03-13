@@ -31,6 +31,10 @@
     /* Le user */
     --size-user : 100px;
     --color-user : black;
+
+    /* le chech */
+    --size-check: 100px;
+    --color-check: black;
 }
 /* LE CSS DE LA POUBELLE */
 .full-trash-can{
@@ -283,22 +287,29 @@
     margin-top: calc(var(--size-user) / 20);
 }
 
-/* Le logo facebook */
+/* Le logo check */
 
-.facebook{
-    width: 20px;
-    height: 20px;
+.check{
+    width: var(--size-check);
+    height: calc(var(--size-check) / 1.583);
 }
-.facebookPart1{
-    width: 20px;
-    height: 20px;
-    background-color: black;
-    border-radius: 100%;
-    overflow: hidden;
+.chechPart1, .chechPart2{
+    background-color: var(--color-check);
 }
-.facebookPart2, .facebookPart3, .facebookPart4{
-    background-color: white;
+.chechPart1{
+    width: calc(var(--size-check) / 1.9);
+    height: calc(var(--size-check) / 9.5);
+    border-radius: calc(var(--size-check) / 1.9);
+    rotate: 45deg;
+    position: relative;
+    top: calc(var(--size-check) / 2.71428);
 }
-.facebookPart2{
-
+.chechPart2{
+    width: calc(var(--size-check) / 1.266);
+    height: calc(var(--size-check) / 9.5);
+    border-radius: calc(var(--size-check) / 1.9);
+    rotate: -45deg;
+    position: relative;
+    left: calc(var(--size-check) / 3.8);
+    top: calc(var(--size-check) / 6.333);
 }
