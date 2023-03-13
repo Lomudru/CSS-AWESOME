@@ -1,0 +1,304 @@
+/* LE VALEUR A MODIFIDIER POUR MODIFIER LA TAILLE*/
+:root{
+    /* La poubelle */
+    --size-trash-can: 35px;
+    --color-trash-can: black;
+
+    /* La maison */
+    --size-house: 35px;
+    --color-house: black;
+
+    /* La Liste */
+    --size-list: 35px;
+    --color-list: black;
+
+    /* Le STYLO */
+    --size-pen: 35px;
+    --color-pen: black;
+
+    /* Le plus */
+    --size-plus : 35px;
+    --color-plus : black;
+
+    /* La cloche */
+    --size-bell : 35px;
+    --color-bell: black;
+
+    /* La loupe */
+    --size-magnifying-glass: 35px;
+    --color-magnifying-glass: black;
+
+    /* Le user */
+    --size-user : 35px;
+    --color-user : black;
+}
+/* LE CSS DE LA POUBELLE */
+.full-trash-can{
+    width: var(--size-trash-can);
+}
+.trash-canPart1{
+    width: calc(var(--size-trash-can) / 3.5);
+    height: calc(var(--size-trash-can) / 7);
+    background-color: var(--color-trash-can);
+    margin-left: calc(var(--size-trash-can) / 2.8);
+}
+.trash-canPart2{
+    width: var(--size-trash-can);
+    height: calc(var(--size-trash-can) / 7);
+    background-color: var(--color-trash-can);
+    margin-bottom: calc(var(--size-trash-can) / 20);
+    border-radius: var(--size-trash-can);
+}
+.trash-canPart3{
+    width: calc(var(--size-trash-can) / 1.16);
+    height: calc(var(--size-trash-can) / 1.4);
+    background-color: var(--color-trash-can);
+    mix-blend-mode: hard-light;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: calc(var(--size-trash-can) / 15);
+    border-radius: 0 0 calc(var(--size-trash-can) / 10) calc(var(--size-trash-can) / 10);
+}
+.trash-canPart4, .trash-canPart5, .trash-canPart6{
+    width: 8%;
+    height: 75%;
+    border-radius: 10px;
+    background-color: gray;
+    margin-top: 9%;
+}
+
+/* LE LOGO DE MAISON */
+.full-house{
+    width: var(--size-house);
+    height: calc(var(--size-house) / 1.13);
+}
+.housePart1{
+    width: calc(var(--size-house) / 2.05);
+    height: calc(var(--size-house) / 2.05);
+    border: calc(var(--size-house) / 7.4) solid;
+    border-color: var(--color-house) var(--color-house) transparent transparent;
+    border-radius: calc(var(--size-house) / 10) calc(var(--size-house) / 7.4);
+    rotate: 315deg;
+    position: relative;
+    top: calc(var(--size-house) / 9.25);
+    left: calc(var(--size-house) / 7.4);
+}
+.housePart2{
+    width: calc(var(--size-house) / 7.4);
+    height: calc(var(--size-house) / 3.083);
+    background-color: var(--color-house);
+    position: relative;
+    top: calc(var(--size-house) / -1.321428571428571);
+    left: calc(var(--size-house) / 1.370370);
+}
+.housePart3{
+    border: calc(var(--size-house) / 4.252873563218391) solid;
+    width: 0;
+    border-color: var(--color-house) var(--color-house) transparent transparent;
+    rotate: -45deg;
+    position: relative;
+    top: calc(var(--size-house) / -1.23);
+    left: calc(var(--size-house) / 3.557692307);
+}
+.housePart4, .housePart5{
+    width: calc(var(--size-house) / 3.7);
+    height: calc(var(--size-house) / 4.11);
+    background-color: var(--color-house);
+    position: relative;
+}
+.housePart4{
+    top: calc(var(--size-house) / -0.948717);
+    left: calc(var(--size-house) / 4.933);
+}
+.housePart5{
+    top: calc(var(--size-house) / -0.77083);
+    left: calc(var(--size-house) / 1.80487);
+}
+.housePart6{
+    width: var(--size-house);
+    height: calc(var(--size-house) / 12.33);
+    background-color: var(--color-house);
+    position: relative;
+    top: calc(var(--size-house) / -0.77083);
+}
+
+/* LE LOGO DE LISTE */
+
+.full-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--size-list);
+    height: calc(var(--size-list) / 0.96);
+    justify-content: space-between;
+}
+.listPart1, .listPart3 , .listPart5{
+    background-color: var(--color-list);
+    width: calc(var(--size-list) / 5.8);
+    height: calc(var(--size-list) / 5.8);
+    border-radius: calc(var(--size-list) / 2.9);
+}
+.listPart2, .listPart4, .listPart6{
+    background-color: var(--color-list);
+    width: calc(var(--size-list) / 1.45);
+    height: calc(var(--size-list) / 5.8);
+    border-radius: calc(var(--size-list) / 2.9);
+}
+
+/* LE LOGO DE STYLO */
+
+.full-pen{
+    display: flex;
+    width: var(--size-pen);
+    height: calc(var(--size-pen) / 1.296);
+}
+.penPart1{
+    border: calc(var(--size-pen) / 7) solid;
+    border-color: var(--color-pen) transparent transparent;
+    rotate: 45deg;
+    position: relative;
+    top: calc(var(--size-pen) / 2.011494252873563);
+    left: calc(var(--size-pen) / -5);
+}
+.penPart2{
+    width: calc(var(--size-pen) / 1.94);
+    height: calc(var(--size-pen) / 3.5);
+    background-color: var(--color-pen);
+    rotate: -45deg;
+    position: relative;
+    top: calc(var(--size-pen) / 3.5);
+    left: calc(var(--size-pen) / -6.849315068493151);
+}
+.penPart3{
+    width: calc(var(--size-pen) / 5);
+    height: calc(var(--size-pen) / 3.5);
+    background-color: var(--color-pen);
+    rotate: -45deg;
+    border-radius: 0 calc(var(--size-pen) / 17.5) calc(var(--size-pen) / 17.5) 0;
+    position: relative;
+    top: calc(var(--size-pen) / var(--size-pen));
+    left: calc(var(--size-pen) / -4.66);
+}
+
+/* LE LOGO PLUS */
+
+.full-plus{
+    width: var(--size-plus);
+    height: var(--size-plus);
+}
+.plusPart1, .plusPart2{
+    width: var(--size-plus);
+    height: calc(var(--size-plus) / 7);
+    background-color: var(--color-plus);
+    border-radius: calc(var(--size-plus) / 3.5);
+}
+.plusPart1{
+    position: relative;
+    top: calc(var(--size-plus) / 2.33);
+}
+.plusPart2{
+    rotate: 90deg;
+    position: relative;
+    top: calc(var(--size-plus) / 3.5);
+}
+
+/* LE LOGO DE CLOCHE */
+
+.full-bell{
+    display: flex;
+    flex-direction: column;
+    width: var(--size-bell);
+}
+.bellPart1{
+    background-color: var(--color-bell);
+    width: calc(var(--size-bell) / 5);
+    height: calc(var(--size-bell) / 6.66);
+    margin-left: calc(var(--size-bell) / 2.5);
+    border-radius: calc(var(--size-bell) / 4) calc(var(--size-bell) / 4) 0 0;
+    position: relative;
+    top: calc(var(--size-bell) / 20);
+}
+.bellPart2{
+    background-color: var(--color-bell);
+    width: calc(var(--size-bell) / 1.25);
+    height: calc(var(--size-bell) / 1.33);
+    border-radius: calc(var(--size-bell) / 2) calc(var(--size-bell) / 2) 0 0;
+    margin-left: calc(var(--size-bell) / 10);
+}
+.bellPart3{
+    background-color: var(--color-bell);
+    width: var(--size-bell);
+    height: calc(var(--size-bell) / 4);
+    border-radius: calc(var(--size-bell) / 2);
+}
+.bellPart4{
+    background-color: var(--color-bell);
+    width: calc(var(--size-bell) / 3.33);
+    height: calc(var(--size-bell) / 5);
+    border-radius: 0 0 calc(var(--size-bell) / 2) calc(var(--size-bell) / 2);
+    margin-top: 1px;
+    margin-left: calc(var(--size-bell) / 2.857142);
+}
+
+/* Le logo de loupe */
+
+.magnifying-glass{
+    width: var(--size-magnifying-glass);
+    height: calc(var(--size-magnifying-glass) / 0.94117);
+}
+.magnifying-glassPart1{
+    width: calc(var(--size-magnifying-glass) / 1.6);
+    height: calc(var(--size-magnifying-glass) / 1.6);
+    border: black solid calc(var(--size-magnifying-glass) / 8);
+    border-radius: 100%;
+}
+.magnifying-glassPart2{
+    width: calc(var(--size-magnifying-glass) / 8);
+    height: calc(var(--size-magnifying-glass) / 2.2857);
+    background-color: black;
+    rotate: -40deg;
+    border-radius: calc(var(--size-magnifying-glass) / 1.6);
+    position: relative;
+    left: calc(var(--size-magnifying-glass) / 1.3333);
+    top: calc(var(--size-magnifying-glass) / -4);
+}
+
+/* Le logo user */
+
+.user{
+    width: var(--size-user);
+    height: calc(var(--size-user) / 0.9523);
+}
+.userPart1{
+    width: calc(var(--size-user) / 2);
+    height: calc(var(--size-user) / 2);
+    background-color: var(--color-user);
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.userPart2{
+    width: var(--size-user);
+    height: calc(var(--size-user) / 2);
+    background-color: var(--color-user);
+    border-radius: calc(var(--size-user) / 2) calc(var(--size-user) / 2) calc(var(--size-user) / 20) calc(var(--size-user) / 20);
+    margin-top: calc(var(--size-user) / 20);
+}
+
+/* Le logo facebook */
+
+.facebook{
+    width: 20px;
+    height: 20px;
+}
+.facebookPart1{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.facebookPart2, .facebookPart3, .facebookPart4{
+    background-color: white;
+}
+.facebookPart2{
+
+}
