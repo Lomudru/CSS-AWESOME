@@ -36,6 +36,7 @@
     --size-check: 100px;
     --color-check: black;
 }
+
 /* LE CSS DE LA POUBELLE */
 .full-trash-can{
     width: var(--size-trash-can);
@@ -308,7 +309,7 @@
     width: calc(var(--size-check) / 1.266);
     height: calc(var(--size-check) / 9.5);
     border-radius: calc(var(--size-check) / 1.9);
-    rotate: -45deg;
+    rotate: -46deg;
     position: relative;
     left: calc(var(--size-check) / 3.8);
     top: calc(var(--size-check) / 6.333);

@@ -1,3 +1,17 @@
+:root{
+    --size-magnifying-glass: 10px;
+}
 main{
     background-color: white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+.logo{
+    width: 5vw;
 }
