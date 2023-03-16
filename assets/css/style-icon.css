@@ -1,6 +1,6 @@
 /* LE CSS DE LA POUBELLE */
 .full-trash-can{
-    --size-trash-can: 100px;
+    --size-trash-can: 5vw;
     --color-trash-can: black;
 
     width: var(--size-trash-can);
@@ -38,11 +38,11 @@
 
 /* LE LOGO DE MAISON */
 .full-house{
-    --size-house: 100px;
+    --size-house: 6.5vw;
     --color-house: black;
 
     width: var(--size-house);
-    height: calc(var(--size-house) / 1.13);
+    height: calc(var(--size-house) / 1.24);
 }
 .housePart1{
     width: calc(var(--size-house) / 2.05);

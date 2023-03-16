@@ -91,3 +91,19 @@ li{
     text-align: center;
     text-transform: uppercase;
 }
+.box{
+    background-color: white;
+    width: 10vw;
+    height: 10vw;
+}
+.box > div{
+    margin: 0 auto;
+}
+.box p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all-icon{
+    display: flex;
+    flex-wrap: wrap;
+}
