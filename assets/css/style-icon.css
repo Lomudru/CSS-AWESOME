@@ -1,44 +1,8 @@
-/* LE VALEUR A MODIFIDIER POUR MODIFIER LA TAILLE*/
-:root{
-    /* La poubelle */
+/* LE CSS DE LA POUBELLE */
+.full-trash-can{
     --size-trash-can: 100px;
     --color-trash-can: black;
 
-    /* La maison */
-    --size-house: 100px;
-    --color-house: black;
-
-    /* La Liste */
-    --size-list: 100px;
-    --color-list: black;
-
-    /* Le STYLO */
-    --size-pen: 100px;
-    --color-pen: black;
-
-    /* Le plus */
-    --size-plus : 100px;
-    --color-plus : black;
-
-    /* La cloche */
-    --size-bell : 100px;
-    --color-bell: black;
-
-    /* La loupe */
-    --size-magnifying-glass: 100px;
-    --color-magnifying-glass: black;
-
-    /* Le user */
-    --size-user : 100px;
-    --color-user : black;
-
-    /* le chech */
-    --size-check: 100px;
-    --color-check: black;
-}
-
-/* LE CSS DE LA POUBELLE */
-.full-trash-can{
     width: var(--size-trash-can);
 }
 .trash-canPart1{
@@ -74,6 +38,9 @@
 
 /* LE LOGO DE MAISON */
 .full-house{
+    --size-house: 100px;
+    --color-house: black;
+
     width: var(--size-house);
     height: calc(var(--size-house) / 1.13);
 }
@@ -130,6 +97,9 @@
 /* LE LOGO DE LISTE */
 
 .full-list{
+    --size-list: 100px;
+    --color-list: black;
+
     display: flex;
     flex-wrap: wrap;
     width: var(--size-list);
@@ -152,6 +122,9 @@
 /* LE LOGO DE STYLO */
 
 .full-pen{
+    --size-pen: 100px;
+    --color-pen: black;
+
     display: flex;
     width: var(--size-pen);
     height: calc(var(--size-pen) / 1.296);
@@ -187,6 +160,9 @@
 /* LE LOGO PLUS */
 
 .full-plus{
+    --size-plus : 100px;
+    --color-plus : black;
+
     width: var(--size-plus);
     height: var(--size-plus);
 }
@@ -209,6 +185,9 @@
 /* LE LOGO DE CLOCHE */
 
 .full-bell{
+    --size-bell : 100px;
+    --color-bell: black;
+
     display: flex;
     flex-direction: column;
     width: var(--size-bell);
@@ -247,6 +226,9 @@
 /* Le logo de loupe */
 
 .magnifying-glass{
+    --size-magnifying-glass: 100px;
+    --color-magnifying-glass: black;
+
     width: var(--size-magnifying-glass);
     height: calc(var(--size-magnifying-glass) / 0.94117);
 }
@@ -270,6 +252,9 @@
 /* Le logo user */
 
 .user{
+    --size-user : 100px;
+    --color-user : black;
+
     width: var(--size-user);
     height: calc(var(--size-user) / 0.9523);
 }
@@ -291,6 +276,9 @@
 /* Le logo check */
 
 .check{
+    --size-check: 100px;
+    --color-check: black;
+
     width: var(--size-check);
     height: calc(var(--size-check) / 1.583);
 }
@@ -313,4 +301,26 @@
     position: relative;
     left: calc(var(--size-check) / 3.8);
     top: calc(var(--size-check) / 6.333);
+}
+
+/* Le logo de patreon */
+.patreon{
+    --size-patreon: 100px;
+    --color-patreon: black;
+
+    width: var(--size-patreon);
+    height: calc(var(--size-patreon) / 1.15);
+    display: flex;
+}
+.patreonPart1{
+    width: calc(var(--size-patreon) / 5.75);
+    height: calc(var(--size-patreon) / 1.15);
+    background-color: var(--color-patreon);
+}
+.patreonPart2{
+    width: calc(var(--size-patreon) / 1.50);
+    height: calc(var(--size-patreon) / 1.50);
+    background-color: var(--color-patreon);
+    border-radius: calc(var(--size-patreon) / 2.3);
+    margin-left: calc(var(--size-patreon) / 11.5);
 }
