@@ -23,20 +23,21 @@ li{
     display: flex;
     width: fit-content;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 30px;
     overflow: hidden;
-    padding: 0 0.5vw;
+    padding: 0 1vw;
     background-color: white;
-    margin: 1vw 0 0 1vw;
+    margin: 1vw auto;
 }
 .searchbar input{
     border: none;
+    font-size: 1.5vw;
 }
 .searchbar input:focus-visible{
     outline: none;
 }
 .searchbar .magnifying-glass{
-    --size-magnifying-glass: 1vw;
+    --size-magnifying-glass: 1.5vw;
     margin: 1% 0 1% 0;
 }
 
@@ -44,9 +45,11 @@ li{
     width: 68%;
     padding: 1%;
     border-radius: 10px;
+    border: 1px solid black;
     text-decoration: none;
     display: flex;
     background-color: white;
+    margin: 1vw 0 0 30%;
 }
 .patreonMember .patreon{
     --size-patreon: 2vw;
@@ -58,4 +61,33 @@ li{
     font-size: 1.2vw;
     font-family: Arial, Helvetica, sans-serif;
     margin: 1% 0 0 1%;
+}
+.patreonMember:active{
+    background-color: rgb(243, 243, 243);
+
+}
+.becomePatreon{
+    display: flex;
+    background-color: #ff424d;
+    width: 42vw;
+    padding: 1vw;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 1.5vw auto;
+}
+.becomePatreon .patreon{
+    --color-patreon: white;
+}
+.becomePatreon h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2vw;
+    margin: 1vw 0 0 0;
+}
+.thanksTo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    text-transform: uppercase;
 }
