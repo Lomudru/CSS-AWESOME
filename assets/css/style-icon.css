@@ -97,7 +97,7 @@
 /* LE LOGO DE LISTE */
 
 .full-list{
-    --size-list: 100px;
+    --size-list: 94px;
     --color-list: black;
 
     display: flex;
@@ -122,7 +122,7 @@
 /* LE LOGO DE STYLO */
 
 .full-pen{
-    --size-pen: 100px;
+    --size-pen: 127px;
     --color-pen: black;
 
     display: flex;
@@ -160,7 +160,7 @@
 /* LE LOGO PLUS */
 
 .full-plus{
-    --size-plus : 100px;
+    --size-plus : 98px;
     --color-plus : black;
 
     width: var(--size-plus);
@@ -185,7 +185,7 @@
 /* LE LOGO DE CLOCHE */
 
 .full-bell{
-    --size-bell : 100px;
+    --size-bell : 72px;
     --color-bell: black;
 
     display: flex;
@@ -226,7 +226,7 @@
 /* Le logo de loupe */
 
 .magnifying-glass{
-    --size-magnifying-glass: 100px;
+    --size-magnifying-glass: 92px;
     --color-magnifying-glass: black;
 
     width: var(--size-magnifying-glass);
@@ -252,7 +252,7 @@
 /* Le logo user */
 
 .user{
-    --size-user : 100px;
+    --size-user : 93px;
     --color-user : black;
 
     width: var(--size-user);
@@ -276,7 +276,7 @@
 /* Le logo check */
 
 .check{
-    --size-check: 100px;
+    --size-check: 155px;
     --color-check: black;
 
     width: var(--size-check);
@@ -297,7 +297,7 @@
     width: calc(var(--size-check) / 1.266);
     height: calc(var(--size-check) / 9.5);
     border-radius: calc(var(--size-check) / 1.9);
-    rotate: -46deg;
+    rotate: -47deg;
     position: relative;
     left: calc(var(--size-check) / 3.8);
     top: calc(var(--size-check) / 6.333);
@@ -305,7 +305,7 @@
 
 /* Le logo de patreon */
 .patreon{
-    --size-patreon: 100px;
+    --size-patreon: 113px;
     --color-patreon: black;
 
     width: var(--size-patreon);
