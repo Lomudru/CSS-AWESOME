@@ -1,5 +1,5 @@
 /* LE CSS DE LA POUBELLE */
-.full-trash-can{
+.trash-can{
     --size-trash-can: 5vw;
     --color-trash-can: black;
 
@@ -37,7 +37,7 @@
 }
 
 /* LE LOGO DE MAISON */
-.full-house{
+.house{
     --size-house: 6.5vw;
     --color-house: black;
 
@@ -96,8 +96,8 @@
 
 /* LE LOGO DE LISTE */
 
-.full-list{
-    --size-list: 94px;
+.list{
+    --size-list: 5.05vw;
     --color-list: black;
 
     display: flex;
@@ -121,8 +121,8 @@
 
 /* LE LOGO DE STYLO */
 
-.full-pen{
-    --size-pen: 127px;
+.pen{
+    --size-pen: 6.8vw;
     --color-pen: black;
 
     display: flex;
@@ -159,8 +159,8 @@
 
 /* LE LOGO PLUS */
 
-.full-plus{
-    --size-plus : 98px;
+.plus{
+    --size-plus : 5.25vw;
     --color-plus : black;
 
     width: var(--size-plus);
@@ -184,8 +184,8 @@
 
 /* LE LOGO DE CLOCHE */
 
-.full-bell{
-    --size-bell : 72px;
+.bell{
+    --size-bell : 3.85vw;
     --color-bell: black;
 
     display: flex;
@@ -226,7 +226,7 @@
 /* Le logo de loupe */
 
 .magnifying-glass{
-    --size-magnifying-glass: 92px;
+    --size-magnifying-glass: 4.95vw;
     --color-magnifying-glass: black;
 
     width: var(--size-magnifying-glass);
@@ -252,7 +252,7 @@
 /* Le logo user */
 
 .user{
-    --size-user : 93px;
+    --size-user : 5vw;
     --color-user : black;
 
     width: var(--size-user);
@@ -276,7 +276,7 @@
 /* Le logo check */
 
 .check{
-    --size-check: 155px;
+    --size-check: 8.3vw;
     --color-check: black;
 
     width: var(--size-check);
@@ -305,7 +305,7 @@
 
 /* Le logo de patreon */
 .patreon{
-    --size-patreon: 113px;
+    --size-patreon: 6.05vw;
     --color-patreon: black;
 
     width: var(--size-patreon);
@@ -323,4 +323,62 @@
     background-color: var(--color-patreon);
     border-radius: calc(var(--size-patreon) / 2.3);
     margin-left: calc(var(--size-patreon) / 11.5);
+}
+
+/* Le logo dowload */
+
+.dowload{
+    --size-dowload: 4.8vw;
+    --color-dowload: black;
+
+    width: var(--size-dowload);
+    height: calc(var(--size-dowload) / 0.91);
+    mix-blend-mode: hard-light;
+}
+.dowloadPart1{
+    background-color: var(--color-dowload);
+    width: calc(var(--size-dowload) / 5);
+    height: calc(var(--size-dowload) / 1.11);
+    border-radius: calc(var(--size-dowload) / 10);
+    margin: 0 auto;
+    border-bottom: calc(var(--size-dowload) / 50) solid grey;
+    position: relative;
+    z-index: 1;
+}
+.dowloadPart2, .dowloadPart3{
+    background-color: var(--color-dowload);
+    width: calc(var(--size-dowload) / 1.67);
+    height: calc(var(--size-dowload) / 5);
+    border-radius: calc(var(--size-dowload) / 5);
+    border-bottom: calc(var(--size-dowload) / 50) solid grey;
+    position: relative;
+    z-index: 1;
+}
+.dowloadPart2{
+    rotate: 45deg;
+    top: calc(var(--size-dowload) / -2.78);
+    left: calc(var(--size-dowload) / 20);
+}
+.dowloadPart3{
+    rotate: -45deg;
+    top: calc(var(--size-dowload) / -1.73);
+    left: calc(var(--size-dowload) / 2.78);
+}
+.dowloadPart4{
+    width: var(--size-dowload);
+    height: calc(var(--size-dowload) / 3.33);
+    background-color: var(--color-dowload);
+    border-radius: calc(var(--size-dowload) / 5);
+    mix-blend-mode: hard-light;
+    position: relative;
+    top: calc(var(--size-dowload) / -1.78);
+    z-index: 0;
+}
+.dowloadPart5{
+    display: inline-block;
+    background-color: grey;
+    width: calc(var(--size-dowload) / 10);
+    height: calc(var(--size-dowload) / 10);
+    margin: calc(var(--size-dowload) / 10) 0 0 calc(var(--size-dowload) / 1.25);
+    border-radius: calc(var(--size-dowload) / 10);
 }

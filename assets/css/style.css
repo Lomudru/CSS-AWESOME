@@ -104,6 +104,7 @@ li{
     margin: 15% auto 0;
 }
 .box p{
+    font-size: 1vw;
     color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -115,4 +116,8 @@ li{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.lab > div{
+    margin: 5% auto 0;
 }
