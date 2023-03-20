@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Blog\\tests\\ArticleManagerTest::testGetArticle":3,"Blog\\tests\\ArticleManagerTest::testGetArticleByWords":3,"Blog\\tests\\ArticleManagerTest::testGetAll":3},"times":{"Blog\\tests\\ArticleManagerTest::testGetArticle":0.007,"Blog\\tests\\ArticleManagerTest::testGetArticleByWords":0.002,"Blog\\tests\\ArticleManagerTest::testGetAll":0.002}}

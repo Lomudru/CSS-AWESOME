@@ -1,0 +1,123 @@
+body{
+    background-color: #B1DDF1;
+}
+header{
+    background-color: #6DA1F1;
+    border-radius: 0 0 10px 10px;
+    padding: 1vw 2vw;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    width: 25vw;
+}
+.logo{
+    width: 5vw;
+}
+.searchbar{
+    display: flex;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 1vw;
+    background-color: white;
+    margin: 1vw auto;
+}
+.searchbar input{
+    border: none;
+    font-size: 1.5vw;
+}
+.searchbar input:focus-visible{
+    outline: none;
+}
+.searchbar .magnifying-glass{
+    --size-magnifying-glass: 1.5vw;
+    margin: 1% 0 1% 0;
+}
+
+.patreonMember{
+    width: 68%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    display: flex;
+    background-color: white;
+    margin: 1vw 0 0 30%;
+}
+.patreonMember .patreon{
+    --size-patreon: 2vw;
+    --color-patreon: #ff424d;
+}
+.patreonMember p{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1% 0 0 1%;
+}
+.patreonMember:active{
+    background-color: rgb(243, 243, 243);
+
+}
+.becomePatreon{
+    display: flex;
+    background-color: #ff424d;
+    width: 42vw;
+    padding: 1vw;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 1.5vw auto;
+}
+.becomePatreon .patreon{
+    --color-patreon: white;
+}
+.becomePatreon h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.99vw;
+    margin: 1vw 0 0 0;
+}
+.thanksTo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+.box{
+    background-color: white;
+    width: 10vw;
+    height: 10vw;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 1vw 4vw;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.box > div{
+    margin: 15% auto 0;
+}
+.box p{
+    font-size: 1vw;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box:hover{
+    box-shadow: 2px 2px 8px -3px black, inset 1px 1px 5px 0 black;
+}
+.all-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab > div{
+    margin: 5% auto 0;
+}

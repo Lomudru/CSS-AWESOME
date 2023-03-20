@@ -1,0 +1,384 @@
+/* LE CSS DE LA POUBELLE */
+.trash-can{
+    --size-trash-can: 5vw;
+    --color-trash-can: black;
+
+    width: var(--size-trash-can);
+}
+.trash-canPart1{
+    width: calc(var(--size-trash-can) / 3.5);
+    height: calc(var(--size-trash-can) / 7);
+    background-color: var(--color-trash-can);
+    margin-left: calc(var(--size-trash-can) / 2.8);
+}
+.trash-canPart2{
+    width: var(--size-trash-can);
+    height: calc(var(--size-trash-can) / 7);
+    background-color: var(--color-trash-can);
+    margin-bottom: calc(var(--size-trash-can) / 20);
+    border-radius: var(--size-trash-can);
+}
+.trash-canPart3{
+    width: calc(var(--size-trash-can) / 1.16);
+    height: calc(var(--size-trash-can) / 1.4);
+    background-color: var(--color-trash-can);
+    mix-blend-mode: hard-light;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: calc(var(--size-trash-can) / 15);
+    border-radius: 0 0 calc(var(--size-trash-can) / 10) calc(var(--size-trash-can) / 10);
+}
+.trash-canPart4, .trash-canPart5, .trash-canPart6{
+    width: 8%;
+    height: 75%;
+    border-radius: 10px;
+    background-color: gray;
+    margin-top: 9%;
+}
+
+/* LE LOGO DE MAISON */
+.house{
+    --size-house: 6.5vw;
+    --color-house: black;
+
+    width: var(--size-house);
+    height: calc(var(--size-house) / 1.24);
+}
+.housePart1{
+    width: calc(var(--size-house) / 2.05);
+    height: calc(var(--size-house) / 2.05);
+    border: calc(var(--size-house) / 7.4) solid;
+    border-color: var(--color-house) var(--color-house) transparent transparent;
+    border-radius: calc(var(--size-house) / 10) calc(var(--size-house) / 7.4);
+    rotate: 315deg;
+    position: relative;
+    top: calc(var(--size-house) / 9.25);
+    left: calc(var(--size-house) / 7.4);
+}
+.housePart2{
+    width: calc(var(--size-house) / 7.4);
+    height: calc(var(--size-house) / 3.083);
+    background-color: var(--color-house);
+    position: relative;
+    top: calc(var(--size-house) / -1.321428571428571);
+    left: calc(var(--size-house) / 1.370370);
+}
+.housePart3{
+    border: calc(var(--size-house) / 4.252873563218391) solid;
+    width: 0;
+    border-color: var(--color-house) var(--color-house) transparent transparent;
+    rotate: -45deg;
+    position: relative;
+    top: calc(var(--size-house) / -1.23);
+    left: calc(var(--size-house) / 3.557692307);
+}
+.housePart4, .housePart5{
+    width: calc(var(--size-house) / 3.7);
+    height: calc(var(--size-house) / 4.11);
+    background-color: var(--color-house);
+    position: relative;
+}
+.housePart4{
+    top: calc(var(--size-house) / -0.948717);
+    left: calc(var(--size-house) / 4.933);
+}
+.housePart5{
+    top: calc(var(--size-house) / -0.77083);
+    left: calc(var(--size-house) / 1.80487);
+}
+.housePart6{
+    width: var(--size-house);
+    height: calc(var(--size-house) / 12.33);
+    background-color: var(--color-house);
+    position: relative;
+    top: calc(var(--size-house) / -0.77083);
+}
+
+/* LE LOGO DE LISTE */
+
+.list{
+    --size-list: 5.05vw;
+    --color-list: black;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--size-list);
+    height: calc(var(--size-list) / 0.96);
+    justify-content: space-between;
+}
+.listPart1, .listPart3 , .listPart5{
+    background-color: var(--color-list);
+    width: calc(var(--size-list) / 5.8);
+    height: calc(var(--size-list) / 5.8);
+    border-radius: calc(var(--size-list) / 2.9);
+}
+.listPart2, .listPart4, .listPart6{
+    background-color: var(--color-list);
+    width: calc(var(--size-list) / 1.45);
+    height: calc(var(--size-list) / 5.8);
+    border-radius: calc(var(--size-list) / 2.9);
+}
+
+/* LE LOGO DE STYLO */
+
+.pen{
+    --size-pen: 6.8vw;
+    --color-pen: black;
+
+    display: flex;
+    width: var(--size-pen);
+    height: calc(var(--size-pen) / 1.296);
+}
+.penPart1{
+    border: calc(var(--size-pen) / 7) solid;
+    border-color: var(--color-pen) transparent transparent;
+    rotate: 45deg;
+    position: relative;
+    top: calc(var(--size-pen) / 2.011494252873563);
+    left: calc(var(--size-pen) / -5);
+}
+.penPart2{
+    width: calc(var(--size-pen) / 1.94);
+    height: calc(var(--size-pen) / 3.5);
+    background-color: var(--color-pen);
+    rotate: -45deg;
+    position: relative;
+    top: calc(var(--size-pen) / 3.5);
+    left: calc(var(--size-pen) / -6.849315068493151);
+}
+.penPart3{
+    width: calc(var(--size-pen) / 5);
+    height: calc(var(--size-pen) / 3.5);
+    background-color: var(--color-pen);
+    rotate: -45deg;
+    border-radius: 0 calc(var(--size-pen) / 17.5) calc(var(--size-pen) / 17.5) 0;
+    position: relative;
+    top: calc(var(--size-pen) / var(--size-pen));
+    left: calc(var(--size-pen) / -4.66);
+}
+
+/* LE LOGO PLUS */
+
+.plus{
+    --size-plus : 5.25vw;
+    --color-plus : black;
+
+    width: var(--size-plus);
+    height: var(--size-plus);
+}
+.plusPart1, .plusPart2{
+    width: var(--size-plus);
+    height: calc(var(--size-plus) / 7);
+    background-color: var(--color-plus);
+    border-radius: calc(var(--size-plus) / 3.5);
+}
+.plusPart1{
+    position: relative;
+    top: calc(var(--size-plus) / 2.33);
+}
+.plusPart2{
+    rotate: 90deg;
+    position: relative;
+    top: calc(var(--size-plus) / 3.5);
+}
+
+/* LE LOGO DE CLOCHE */
+
+.bell{
+    --size-bell : 3.85vw;
+    --color-bell: black;
+
+    display: flex;
+    flex-direction: column;
+    width: var(--size-bell);
+}
+.bellPart1{
+    background-color: var(--color-bell);
+    width: calc(var(--size-bell) / 5);
+    height: calc(var(--size-bell) / 6.66);
+    margin-left: calc(var(--size-bell) / 2.5);
+    border-radius: calc(var(--size-bell) / 4) calc(var(--size-bell) / 4) 0 0;
+    position: relative;
+    top: calc(var(--size-bell) / 20);
+}
+.bellPart2{
+    background-color: var(--color-bell);
+    width: calc(var(--size-bell) / 1.25);
+    height: calc(var(--size-bell) / 1.33);
+    border-radius: calc(var(--size-bell) / 2) calc(var(--size-bell) / 2) 0 0;
+    margin-left: calc(var(--size-bell) / 10);
+}
+.bellPart3{
+    background-color: var(--color-bell);
+    width: var(--size-bell);
+    height: calc(var(--size-bell) / 4);
+    border-radius: calc(var(--size-bell) / 2);
+}
+.bellPart4{
+    background-color: var(--color-bell);
+    width: calc(var(--size-bell) / 3.33);
+    height: calc(var(--size-bell) / 5);
+    border-radius: 0 0 calc(var(--size-bell) / 2) calc(var(--size-bell) / 2);
+    margin-top: 1px;
+    margin-left: calc(var(--size-bell) / 2.857142);
+}
+
+/* Le logo de loupe */
+
+.magnifying-glass{
+    --size-magnifying-glass: 4.95vw;
+    --color-magnifying-glass: black;
+
+    width: var(--size-magnifying-glass);
+    height: calc(var(--size-magnifying-glass) / 0.94117);
+}
+.magnifying-glassPart1{
+    width: calc(var(--size-magnifying-glass) / 1.6);
+    height: calc(var(--size-magnifying-glass) / 1.6);
+    border: black solid calc(var(--size-magnifying-glass) / 8);
+    border-radius: 100%;
+}
+.magnifying-glassPart2{
+    width: calc(var(--size-magnifying-glass) / 8);
+    height: calc(var(--size-magnifying-glass) / 2.2857);
+    background-color: black;
+    rotate: -40deg;
+    border-radius: calc(var(--size-magnifying-glass) / 1.6);
+    position: relative;
+    left: calc(var(--size-magnifying-glass) / 1.3333);
+    top: calc(var(--size-magnifying-glass) / -4);
+}
+
+/* Le logo user */
+
+.user{
+    --size-user : 5vw;
+    --color-user : black;
+
+    width: var(--size-user);
+    height: calc(var(--size-user) / 0.9523);
+}
+.userPart1{
+    width: calc(var(--size-user) / 2);
+    height: calc(var(--size-user) / 2);
+    background-color: var(--color-user);
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.userPart2{
+    width: var(--size-user);
+    height: calc(var(--size-user) / 2);
+    background-color: var(--color-user);
+    border-radius: calc(var(--size-user) / 2) calc(var(--size-user) / 2) calc(var(--size-user) / 20) calc(var(--size-user) / 20);
+    margin-top: calc(var(--size-user) / 20);
+}
+
+/* Le logo check */
+
+.check{
+    --size-check: 8.3vw;
+    --color-check: black;
+
+    width: var(--size-check);
+    height: calc(var(--size-check) / 1.583);
+}
+.chechPart1, .chechPart2{
+    background-color: var(--color-check);
+}
+.chechPart1{
+    width: calc(var(--size-check) / 1.9);
+    height: calc(var(--size-check) / 9.5);
+    border-radius: calc(var(--size-check) / 1.9);
+    rotate: 45deg;
+    position: relative;
+    top: calc(var(--size-check) / 2.71428);
+}
+.chechPart2{
+    width: calc(var(--size-check) / 1.266);
+    height: calc(var(--size-check) / 9.5);
+    border-radius: calc(var(--size-check) / 1.9);
+    rotate: -47deg;
+    position: relative;
+    left: calc(var(--size-check) / 3.8);
+    top: calc(var(--size-check) / 6.333);
+}
+
+/* Le logo de patreon */
+.patreon{
+    --size-patreon: 6.05vw;
+    --color-patreon: black;
+
+    width: var(--size-patreon);
+    height: calc(var(--size-patreon) / 1.15);
+    display: flex;
+}
+.patreonPart1{
+    width: calc(var(--size-patreon) / 5.75);
+    height: calc(var(--size-patreon) / 1.15);
+    background-color: var(--color-patreon);
+}
+.patreonPart2{
+    width: calc(var(--size-patreon) / 1.50);
+    height: calc(var(--size-patreon) / 1.50);
+    background-color: var(--color-patreon);
+    border-radius: calc(var(--size-patreon) / 2.3);
+    margin-left: calc(var(--size-patreon) / 11.5);
+}
+
+/* Le logo dowload */
+
+.dowload{
+    --size-dowload: 4.5vw;
+    --color-dowload: black;
+
+    width: var(--size-dowload);
+    height: calc(var(--size-dowload) / 0.91);
+    mix-blend-mode: hard-light;
+}
+.dowloadPart1{
+    background-color: var(--color-dowload);
+    width: calc(var(--size-dowload) / 5);
+    height: calc(var(--size-dowload) / 1.11);
+    border-radius: calc(var(--size-dowload) / 10);
+    margin: 0 auto;
+    border-bottom: calc(var(--size-dowload) / 50) solid grey;
+    position: relative;
+    z-index: 1;
+}
+.dowloadPart2, .dowloadPart3{
+    background-color: var(--color-dowload);
+    width: calc(var(--size-dowload) / 1.67);
+    height: calc(var(--size-dowload) / 5);
+    border-radius: calc(var(--size-dowload) / 5);
+    border-bottom: calc(var(--size-dowload) / 50) solid grey;
+    position: relative;
+    z-index: 1;
+}
+.dowloadPart2{
+    rotate: 45deg;
+    top: calc(var(--size-dowload) / -2.78);
+    left: calc(var(--size-dowload) / 20);
+}
+.dowloadPart3{
+    rotate: -45deg;
+    top: calc(var(--size-dowload) / -1.73);
+    left: calc(var(--size-dowload) / 2.78);
+}
+.dowloadPart4{
+    width: var(--size-dowload);
+    height: calc(var(--size-dowload) / 3.33);
+    background-color: var(--color-dowload);
+    border-radius: calc(var(--size-dowload) / 5);
+    mix-blend-mode: hard-light;
+    position: relative;
+    top: calc(var(--size-dowload) / -1.78);
+    z-index: 0;
+}
+.dowloadPart5{
+    display: inline-block;
+    background-color: grey;
+    width: calc(var(--size-dowload) / 10);
+    height: calc(var(--size-dowload) / 10);
+    margin: calc(var(--size-dowload) / 10) 0 0 calc(var(--size-dowload) / 1.25);
+    border-radius: calc(var(--size-dowload) / 10);
+}
