@@ -328,7 +328,7 @@
 /* Le logo dowload */
 
 .dowload{
-    --size-dowload: 4.8vw;
+    --size-dowload: 4.5vw;
     --color-dowload: black;
 
     width: var(--size-dowload);
